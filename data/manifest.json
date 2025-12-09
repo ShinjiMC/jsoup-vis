@@ -1,0 +1,1164 @@
+[
+  {
+    "sha_id": 1,
+    "sha_text": "128fb42ccceb66a67d1ac1ddf816860974544116",
+    "commit_date": "2025-11-18T13:26:35Z",
+    "commit_message": "Merge pull request #1021 from Simulant87/update-build-script",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 2,
+    "sha_text": "8f3b0f1c139ded2180261f200f33bd2e40f65c27",
+    "commit_date": "2025-11-02T17:02:44Z",
+    "commit_message": "Add runtime record detection for backward compatibility",
+    "author_name": "AbhineshJha"
+  },
+  {
+    "sha_id": 3,
+    "sha_text": "f2acf8af6932ad8a46339b8024ee009919c1b7cf",
+    "commit_date": "2025-11-01T14:03:29Z",
+    "commit_message": "Optimize method name exclusion using Set lookup instead of multiple e…",
+    "author_name": "AbhineshJha"
+  },
+  {
+    "sha_id": 4,
+    "sha_text": "fd1eee9c3bd20f4ce63b6a1daae58f1c03b5e695",
+    "commit_date": "2025-11-01T14:03:29Z",
+    "commit_message": "Add comprehensive edge case tests for record support",
+    "author_name": "AbhineshJha"
+  },
+  {
+    "sha_id": 5,
+    "sha_text": "2550c692cfe32d840431434f531a7735d438c17a",
+    "commit_date": "2025-11-01T14:03:29Z",
+    "commit_message": "Refactor: Extract isRecordStyleAccessor helper method",
+    "author_name": "AbhineshJha"
+  },
+  {
+    "sha_id": 6,
+    "sha_text": "20f520000014ac6e65d0de5b7f7dad93c0e706ba",
+    "commit_date": "2025-11-01T14:03:29Z",
+    "commit_message": "Fix: Support Java record accessors in JSONObject",
+    "author_name": "AbhineshJha"
+  },
+  {
+    "sha_id": 7,
+    "sha_text": "42800c208a969d9151af50b64dcdfb7a6cacd9df",
+    "commit_date": "2025-10-28T02:06:11Z",
+    "commit_message": "Updating to work with java 1.6",
+    "author_name": "sk02241994"
+  },
+  {
+    "sha_id": 8,
+    "sha_text": "0cdc5e517026b1fbc39bd11be3899f930d97d18b",
+    "commit_date": "2025-10-25T15:21:50Z",
+    "commit_message": "Reverted Constructor access to public",
+    "author_name": "md-yasir"
+  },
+  {
+    "sha_id": 9,
+    "sha_text": "ac65ee0490d92f6b1854d22651a8e8ded8b7c5ec",
+    "commit_date": "2025-10-25T15:07:54Z",
+    "commit_message": "Revert \"Refactored stop conditions to be invariant by using while loop.\"",
+    "author_name": "md-yasir"
+  },
+  {
+    "sha_id": 10,
+    "sha_text": "39e8ead7cd39dd9bffeed0f58cccae615adffdcd",
+    "commit_date": "2025-10-24T04:07:46Z",
+    "commit_message": "Added java doc for deprecated decoration",
+    "author_name": "md-yasir"
+  },
+  {
+    "sha_id": 11,
+    "sha_text": "6dd878d3c9262f51973fd167ca75421fc849d205",
+    "commit_date": "2025-10-24T03:40:53Z",
+    "commit_message": "Deprecated public constructors instead of making it private.",
+    "author_name": "md-yasir"
+  },
+  {
+    "sha_id": 12,
+    "sha_text": "2c6082a0a2828dc2083056b99696d6c4209e3869",
+    "commit_date": "2025-10-23T17:20:12Z",
+    "commit_message": "Refactored stop conditions to be invariant by using while loop.",
+    "author_name": "md-yasir"
+  },
+  {
+    "sha_id": 13,
+    "sha_text": "5dc1031d17d24ea3b49b3e37ce388acbd170dc2d",
+    "commit_date": "2025-10-23T17:08:01Z",
+    "commit_message": "Made JSONMl constructor to private and refactored ternary operations …",
+    "author_name": "md-yasir"
+  },
+  {
+    "sha_id": 14,
+    "sha_text": "1de42aa4fd2baa6f83a6bac6ef38d29fb8579999",
+    "commit_date": "2025-10-23T17:07:00Z",
+    "commit_message": "Made CookieList constructor to private.",
+    "author_name": "md-yasir"
+  },
+  {
+    "sha_id": 15,
+    "sha_text": "c13b57ca267b4d7aca11b0d93436e0d98332ca7a",
+    "commit_date": "2025-10-23T17:06:53Z",
+    "commit_message": "Made Cookie constructor to private.",
+    "author_name": "md-yasir"
+  },
+  {
+    "sha_id": 16,
+    "sha_text": "f92f28162033ce16b42c207ad393a9898ddca23b",
+    "commit_date": "2025-10-23T06:33:37Z",
+    "commit_message": "Updating to work with java 1.6",
+    "author_name": "sk02241994"
+  },
+  {
+    "sha_id": 17,
+    "sha_text": "8ccf5d7525487226d7a2362f67a36ca606aa6614",
+    "commit_date": "2025-10-23T06:32:07Z",
+    "commit_message": "Removing the interface classes and simplifying the implementation to …",
+    "author_name": "sk02241994"
+  },
+  {
+    "sha_id": 18,
+    "sha_text": "a7c193090a36aecb78a80bfc150260a09f6ec338",
+    "commit_date": "2025-10-16T03:23:30Z",
+    "commit_message": "Updating docs",
+    "author_name": "sk02241994"
+  },
+  {
+    "sha_id": 19,
+    "sha_text": "c4c2beb87450bf382b25b928f1610b0ac22b5412",
+    "commit_date": "2025-10-16T03:19:19Z",
+    "commit_message": "Limiting implemetation by removing the new classes.",
+    "author_name": "sk02241994"
+  },
+  {
+    "sha_id": 20,
+    "sha_text": "9adea9e12de03ec5d548967e7d3bee3ca02f76d7",
+    "commit_date": "2025-10-13T01:39:15Z",
+    "commit_message": "Updating to work with java 1.6",
+    "author_name": "sk02241994"
+  },
+  {
+    "sha_id": 21,
+    "sha_text": "7465da858c921a9e8e791bdaa54df35ea89697da",
+    "commit_date": "2025-10-13T01:39:15Z",
+    "commit_message": "- Updating for java 1.6",
+    "author_name": "sk02241994"
+  },
+  {
+    "sha_id": 22,
+    "sha_text": "0521928463bbb65c4ca9c4921131469c28ec5308",
+    "commit_date": "2025-10-13T01:39:14Z",
+    "commit_message": "- Added implementation for Enum and Map",
+    "author_name": "sk02241994"
+  },
+  {
+    "sha_id": 23,
+    "sha_text": "fbb6b3158eb186189a1b35e9902f24d0ad8cddbc",
+    "commit_date": "2025-10-13T01:39:14Z",
+    "commit_message": "Updating to work with java 1.6",
+    "author_name": "sk02241994"
+  },
+  {
+    "sha_id": 24,
+    "sha_text": "ebc13d66853323ca439749560b5f883f2ca6b583",
+    "commit_date": "2025-10-13T01:39:13Z",
+    "commit_message": "Updating to work with java 1.6",
+    "author_name": "sk02241994"
+  },
+  {
+    "sha_id": 25,
+    "sha_text": "7d28955216c9dde9e4617a0abb9b95def69680a0",
+    "commit_date": "2025-10-13T01:39:13Z",
+    "commit_message": "Updating to work with java 1.6",
+    "author_name": "sk02241994"
+  },
+  {
+    "sha_id": 26,
+    "sha_text": "83a0e34be5bb572276873bdfd3f5b31da5bc4a48",
+    "commit_date": "2025-10-13T01:39:12Z",
+    "commit_message": "1003: Implement JSONObject.fromJson() with unit tests",
+    "author_name": "sk02241994"
+  },
+  {
+    "sha_id": 27,
+    "sha_text": "1a2c50b40c410641d777d622e0de27b94da558cf",
+    "commit_date": "2025-10-11T14:18:33Z",
+    "commit_message": "changed string checking logic >> string.length() > 0 to !string.isEmp…",
+    "author_name": "md-yasir"
+  },
+  {
+    "sha_id": 28,
+    "sha_text": "05867c4b0bc948296f3df0051e7b1f8d38bf7052",
+    "commit_date": "2025-09-22T00:37:20Z",
+    "commit_message": "Merge branch 'master' of https://github.com/marilynel/JSON-java",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 29,
+    "sha_text": "c6efa080c0c14fe7d6cf351fad5af774371f267f",
+    "commit_date": "2025-09-22T00:36:52Z",
+    "commit_message": "more cleanup sonarqube JSONArray",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 30,
+    "sha_text": "f2af220cb47f804f63cd07d67d3c408d24ca29e0",
+    "commit_date": "2025-09-14T18:59:39Z",
+    "commit_message": "more sonarcube fixes",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 31,
+    "sha_text": "686c08489736e2cebda86264a3294b356cd091a3",
+    "commit_date": "2025-09-10T00:30:19Z",
+    "commit_message": "Update JSONTokener.java for #1007",
+    "author_name": "Michele Vivoda"
+  },
+  {
+    "sha_id": 32,
+    "sha_text": "9de3005566acdc91de80ce58eeeab4fee36042c9",
+    "commit_date": "2025-09-10T00:21:16Z",
+    "commit_message": "Update JSONArray.java for #1007",
+    "author_name": "Michele Vivoda"
+  },
+  {
+    "sha_id": 33,
+    "sha_text": "69c87dc4db3dad720a693c153552b7ed93e07769",
+    "commit_date": "2025-09-07T20:52:59Z",
+    "commit_message": "more sonarcube optimization in jsonobject.java",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 34,
+    "sha_text": "53cfa742a740e278e0928245bf8a20110c6b2ac4",
+    "commit_date": "2025-09-07T20:41:37Z",
+    "commit_message": "more sonarcube optimization in jsonobject.java",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 35,
+    "sha_text": "4e0f62b1a6fe5a5464e026726fabc4a32a97c268",
+    "commit_date": "2025-09-07T20:28:52Z",
+    "commit_message": "more sonarcube optimization in jsonobject.java",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 36,
+    "sha_text": "6ed2880f551c120982f196e8872b30316eb91b2e",
+    "commit_date": "2025-08-24T20:55:49Z",
+    "commit_message": "more sonarcube cleanup",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 37,
+    "sha_text": "9bb26bdb34ba746eb038abc856cf05dafbe4adf4",
+    "commit_date": "2025-08-03T19:52:20Z",
+    "commit_message": "sonar cube stuff",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 38,
+    "sha_text": "38c3a0bb3f2eb6682b33f3aa35f9996cb12f4329",
+    "commit_date": "2025-07-27T19:45:07Z",
+    "commit_message": "more sonarcube issues",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 39,
+    "sha_text": "ebd9a17a3bb33d6d0a4b31364a7812fd49708d77",
+    "commit_date": "2025-07-27T19:26:50Z",
+    "commit_message": "addressing minor sonarqube concerns",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 40,
+    "sha_text": "e762629bcc37e4e543e6f53655430b0224a58e28",
+    "commit_date": "2025-07-20T20:04:51Z",
+    "commit_message": "oops one more sonarcube issue lol",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 41,
+    "sha_text": "7fc41a6c0ee191c0d201fd95252328238a4555fd",
+    "commit_date": "2025-07-20T19:58:30Z",
+    "commit_message": "addressing cognitive complextity",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 42,
+    "sha_text": "d5d82cdb8706387e2075688ee9f55f1c8e052a50",
+    "commit_date": "2025-07-20T19:31:29Z",
+    "commit_message": "fixing sonarcube issues",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 43,
+    "sha_text": "c91b728386112a88d0d8492ecbb69395067481c1",
+    "commit_date": "2025-07-13T20:52:42Z",
+    "commit_message": "oops forgot null",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 44,
+    "sha_text": "fdaeb486edac31c5dd4ae24259ded6b1b4831270",
+    "commit_date": "2025-07-13T20:41:17Z",
+    "commit_message": "fixed some strict mode issues 980",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 45,
+    "sha_text": "7bb3df8ebf22f8cf427574a859a55e021be1e785",
+    "commit_date": "2025-07-06T20:41:44Z",
+    "commit_message": "added test details",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 46,
+    "sha_text": "3dce55794f2805563918ff13bbbd04750cd1ab90",
+    "commit_date": "2025-07-06T20:37:05Z",
+    "commit_message": "fixed keeping null as string",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 47,
+    "sha_text": "7b0d1942b4c172361475bd92c197eea1f13ae5ce",
+    "commit_date": "2025-07-04T01:39:13Z",
+    "commit_message": "tech-debt-25250701 add jacoco to gradle build, refactor JSONObject to…",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 48,
+    "sha_text": "a729c2077a929ba693ee772ae9937e94faeaadc0",
+    "commit_date": "2025-07-03T08:23:46Z",
+    "commit_message": "Added JUnit tests for XMLTokenerTest",
+    "author_name": "surajdm123"
+  },
+  {
+    "sha_id": 49,
+    "sha_text": "7ac773be722d4b974f3b3f4d73a597f477c84f58",
+    "commit_date": "2025-07-03T07:58:15Z",
+    "commit_message": "Added JUnit test cases for HTTPTokener",
+    "author_name": "surajdm123"
+  },
+  {
+    "sha_id": 50,
+    "sha_text": "197afddbfbaa267691b580714fe5609ddd8e0d28",
+    "commit_date": "2025-07-01T12:13:18Z",
+    "commit_message": "Merge pull request #990 from Simulant87/984-refactor-cognitive-comple…",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 51,
+    "sha_text": "c882783d58785143125fe1ab49dc8431f87bebcf",
+    "commit_date": "2025-06-26T17:44:27Z",
+    "commit_message": "Format line 2755 in JSONObject.java",
+    "author_name": "Alex Cai"
+  },
+  {
+    "sha_id": 52,
+    "sha_text": "5063d314a553f79e89a7473e1bc9b3d6438168a6",
+    "commit_date": "2025-06-25T21:08:01Z",
+    "commit_message": "#984 extract method for annotation value check",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 53,
+    "sha_text": "916fba5d397cc608772aa68a590f8c4384a93b1e",
+    "commit_date": "2025-06-25T21:00:07Z",
+    "commit_message": "#984 extract methods reducing cognitive complexity",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 54,
+    "sha_text": "aac376f305d5b215cd3b6faa75d7dfb61cfab918",
+    "commit_date": "2025-06-22T17:31:51Z",
+    "commit_message": "Remove a redundant condition and an empty string",
+    "author_name": "AlexCai2019"
+  },
+  {
+    "sha_id": 55,
+    "sha_text": "50330430cee1749768a334e8f130f40e6a313b5a",
+    "commit_date": "2025-06-07T21:15:43Z",
+    "commit_message": "remove-unused-code-jsonobject removed unused method from jsonobject",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 56,
+    "sha_text": "e800cc349ff5b25731edcc1543e4db9ffcd3d469",
+    "commit_date": "2025-06-04T18:15:49Z",
+    "commit_message": "Use constant.equals()",
+    "author_name": "AlexCai2019"
+  },
+  {
+    "sha_id": 57,
+    "sha_text": "a381060f81725743732ea7e1d8d67f080ee3f9ce",
+    "commit_date": "2025-05-24T16:24:12Z",
+    "commit_message": "Add testcase to assert Null fields serialization without JSONParserCo…",
+    "author_name": "hboggavarapu"
+  },
+  {
+    "sha_id": 58,
+    "sha_text": "dadc3e59dc3ae44f678a1d5f1554edb93a5adb80",
+    "commit_date": "2025-05-23T12:27:08Z",
+    "commit_message": "Use JSONParserConfiguration to decide on serializing null fields into…",
+    "author_name": "hboggavarapu"
+  },
+  {
+    "sha_id": 59,
+    "sha_text": "2184ef34d15e983c28e96a19947e34d71effdc5e",
+    "commit_date": "2025-04-13T18:35:45Z",
+    "commit_message": "refactored large test for strict mode",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 60,
+    "sha_text": "53da5ce2a96bb5aef7316becf60269240cfe386f",
+    "commit_date": "2025-04-06T18:04:33Z",
+    "commit_message": "adjusted keepstrings behavior to reflect changes in keepBooleanAsStri…",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 61,
+    "sha_text": "8dbf03e76bbb7e0667f94f04afe900be498f1406",
+    "commit_date": "2025-03-30T19:21:44Z",
+    "commit_message": "work on issue 841",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 62,
+    "sha_text": "fd0cca358653dc970683bdc32e9ae5a928576806",
+    "commit_date": "2025-03-21T09:12:20Z",
+    "commit_message": "Fix cloning of parser configuration.",
+    "author_name": "Robert Lichtenberger"
+  },
+  {
+    "sha_id": 63,
+    "sha_text": "1afd7cd6bc5554ccaef541657866136196d38434",
+    "commit_date": "2025-03-21T06:25:37Z",
+    "commit_message": "Use better name for parser configuration option, fix API comment.",
+    "author_name": "Robert Lichtenberger"
+  },
+  {
+    "sha_id": 64,
+    "sha_text": "5d1c789490627ddfa59f17252954ed62ccca6a59",
+    "commit_date": "2025-03-19T07:10:33Z",
+    "commit_message": "Add test for JSONArray from Java collection.",
+    "author_name": "Robert Lichtenberger"
+  },
+  {
+    "sha_id": 65,
+    "sha_text": "d1327c2da312d1670ecf9b9170cd36641e2522dd",
+    "commit_date": "2025-03-19T06:59:57Z",
+    "commit_message": "Allow to configure Java null handling.",
+    "author_name": "Robert Lichtenberger"
+  },
+  {
+    "sha_id": 66,
+    "sha_text": "b2943b8fd0ab71e377987bd54e13894653aea3ee",
+    "commit_date": "2025-03-16T19:50:58Z",
+    "commit_message": "fixed issue #943 Csv parsing skip last row if last line is missing ne…",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 67,
+    "sha_text": "ae4f4afcc79dec50ff265c56ef34c1d29a32d2f4",
+    "commit_date": "2025-03-02T19:08:00Z",
+    "commit_message": "dont mess with my line",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 68,
+    "sha_text": "f30167e7c0a83fc742e64337042db3762d0a8f81",
+    "commit_date": "2025-02-24T06:00:22Z",
+    "commit_message": "tests seem to be working, run with strictMode = fale then true",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 69,
+    "sha_text": "3919abd69a785cdc83d9171b3365927cf52cca71",
+    "commit_date": "2025-02-15T20:30:12Z",
+    "commit_message": "optimized unit tests to respond accurately to default strictMode",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 70,
+    "sha_text": "f112a091aadf080ff3f4e750ea33e7cb490a0213",
+    "commit_date": "2025-02-15T20:03:03Z",
+    "commit_message": "fixed failing unit tests in strict mode, issue 940",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 71,
+    "sha_text": "1689fc28cfc96098ca76937ceebf36c446dc4ff2",
+    "commit_date": "2025-02-09T19:13:22Z",
+    "commit_message": "deprecated unnecessary setter method",
+    "author_name": "marilynel"
+  },
+  {
+    "sha_id": 72,
+    "sha_text": "8b857da467e97108ceeeba933ba6696138c01b0a",
+    "commit_date": "2025-01-19T15:07:53Z",
+    "commit_message": "Merge pull request #946 from Simulant87/928-javadoc-warning-JSONParse…",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 73,
+    "sha_text": "07b1291448ad987145e3e8fcc5aaee159087a774",
+    "commit_date": "2025-01-19T15:06:21Z",
+    "commit_message": "Merge pull request #942 from michael-ameri/fix-clone",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 74,
+    "sha_text": "4c873a1db44dcbadcefa7c79617a6617699d2cd9",
+    "commit_date": "2025-01-15T20:41:01Z",
+    "commit_message": "#947 use JSONParserConfiguration of JSONTokener in JSONObject and JSO…",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 75,
+    "sha_text": "6631b80e8f3e5f9f20b2c57ebedcc929a92f25f1",
+    "commit_date": "2025-01-15T20:38:46Z",
+    "commit_message": "#947 add new failing tests with JSONTokener having strict mode config…",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 76,
+    "sha_text": "9218f28db821375a7ae6957525159644cb763d18",
+    "commit_date": "2025-01-15T20:02:25Z",
+    "commit_message": "#928 add missing java dock for JSONParserConfiguration",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 77,
+    "sha_text": "94341cd6634c09bba1a8976d1c2999e1fdb15c12",
+    "commit_date": "2025-01-15T19:58:45Z",
+    "commit_message": "Revert \"#928 add missing java dock for JSONParserConfiguration\"",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 78,
+    "sha_text": "afd9a6fbb70cd66d440a53458c186d11377bd2ff",
+    "commit_date": "2025-01-15T19:55:13Z",
+    "commit_message": "#928 add missing java dock for JSONParserConfiguration",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 79,
+    "sha_text": "4bbbe774469a137d46dedb37b614b7d1fca3fda7",
+    "commit_date": "2025-01-12T22:03:31Z",
+    "commit_message": "add missing fields when cloning",
+    "author_name": "Michael Ameri"
+  },
+  {
+    "sha_id": 80,
+    "sha_text": "ad44a9274c487cfc580a183226ed4d5aea0c99ab",
+    "commit_date": "2025-01-11T20:43:04Z",
+    "commit_message": "add new test cases for JSONObject and JSONArray Constructors with JSO…",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 81,
+    "sha_text": "3b7ba07531f4b6486667767b291a78bfa2616dcb",
+    "commit_date": "2025-01-11T20:40:41Z",
+    "commit_message": "add test for invalid input on JSONTokener",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 82,
+    "sha_text": "215f4268bfe10e560c2129f5442a0bb04dd32f9a",
+    "commit_date": "2025-01-11T20:35:36Z",
+    "commit_message": "add Javadoc and rename parameters to speaking variable names",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 83,
+    "sha_text": "ca1c6830c9ea35c3ba397e9031ff73dd5410d5c1",
+    "commit_date": "2025-01-10T17:05:27Z",
+    "commit_message": "remove field references to JSONTokener and JSONParserConfiguration in…",
+    "author_name": "Michael Ameri"
+  },
+  {
+    "sha_id": 84,
+    "sha_text": "2dcef89a6f3a79a0efc2c1e260029a5b26c646a9",
+    "commit_date": "2024-12-21T15:50:52Z",
+    "commit_message": "Code review action items - add comments and consistent error messages…",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 85,
+    "sha_text": "d3c7eaf17e8ca0162d344c3e98ef270b8164cc69",
+    "commit_date": "2024-12-15T19:18:39Z",
+    "commit_message": "restore-jsonparserconfiguration: fix unit tests to work when strictMo…",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 86,
+    "sha_text": "09536cd6c838e647d5357042a7de84a925050531",
+    "commit_date": "2024-12-15T16:38:54Z",
+    "commit_message": "restore-jsonparserconfiguration: add jsonobject strict tests. Detect …",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 87,
+    "sha_text": "1f0729cadbae625344ed49cf71425d15a62e3aad",
+    "commit_date": "2024-12-14T20:40:40Z",
+    "commit_message": "restore-jsonparserconfiguration: strict mode initial attempt. Still m…",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 88,
+    "sha_text": "80b2672f77d78598186982394479ac68497c0f56",
+    "commit_date": "2024-12-14T16:07:26Z",
+    "commit_message": "restore-jsonparserconfiguration: clean up some whitespace",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 89,
+    "sha_text": "1f308db7c48048e15c9953ebd6499c84dc135f3b",
+    "commit_date": "2024-12-14T16:01:27Z",
+    "commit_message": "restore-jsonparserconfiguration: Restore methods to be used for stric…",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 90,
+    "sha_text": "2ee5bf13f403a9e95203f794be30732e20929429",
+    "commit_date": "2024-11-13T22:29:34Z",
+    "commit_message": "Merge pull request #907 from hexetia/fix-901",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 91,
+    "sha_text": "215ec9bb9c97ff84ba3913860a725a9b61463189",
+    "commit_date": "2024-11-03T15:50:08Z",
+    "commit_message": "Revert \"Merge pull request #877 from rikkarth/feat/871-strictMode\"",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 92,
+    "sha_text": "61dc2644d823060ccc38a235bd2505acf81b4a7a",
+    "commit_date": "2024-11-03T15:49:50Z",
+    "commit_message": "Revert \"Merge pull request #886 from Simulant87/884-strictmode-javadoc\"",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 93,
+    "sha_text": "ab1b9a345988b9d01b20654ead2d0c2b7e4240cf",
+    "commit_date": "2024-11-03T15:49:23Z",
+    "commit_message": "Revert \"Merge pull request #888 from rikkarth/fix/887\"",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 94,
+    "sha_text": "14e9cdc485f6c80bee6ca1551458bfed1a20348a",
+    "commit_date": "2024-10-05T14:43:00Z",
+    "commit_message": "fix(#901): add the jsonparserConfiguration param to avoid a stackover…",
+    "author_name": "Lucas Nascimento"
+  },
+  {
+    "sha_id": 95,
+    "sha_text": "0d71dcf71319c9bc230f268e3e50314bb7bb9e5e",
+    "commit_date": "2024-10-05T14:39:26Z",
+    "commit_message": "test(#901): call JsonArray.putAll with a casted list as object",
+    "author_name": "Lucas Nascimento"
+  },
+  {
+    "sha_id": 96,
+    "sha_text": "14f71274f79ac50afb316845539f4195facc33ee",
+    "commit_date": "2024-05-21T01:18:49Z",
+    "commit_message": "Merge pull request #888 from rikkarth/fix/887",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 97,
+    "sha_text": "a8ab79e3f3a9c0ee60906c5ac40874ce6cd17dd8",
+    "commit_date": "2024-05-19T13:41:16Z",
+    "commit_message": "chore(#887): JSONParserConfiguration strictMode true flag cleanup",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 98,
+    "sha_text": "48dfeb84b0d36bd8acb6fe2551c81c2c8f65992f",
+    "commit_date": "2024-04-28T22:52:53Z",
+    "commit_message": "fix(#887): unit tests, uncommented tests after fix",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 99,
+    "sha_text": "1ae43bdb905cd71d621a39f7789b68f8c89e6983",
+    "commit_date": "2024-04-28T22:30:05Z",
+    "commit_message": "fix(#887): regressions, unit tests",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 100,
+    "sha_text": "cf00ef3e8ab52f6be0fabae3b6aa11537fe4b7cf",
+    "commit_date": "2024-04-28T17:47:51Z",
+    "commit_message": "fixes the broken JSONTokenerTest cases",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 101,
+    "sha_text": "0180bd90f08b82c2113cc62c855bab15d2af2f27",
+    "commit_date": "2024-04-28T17:41:58Z",
+    "commit_message": "fixes the broken XMLTest cases",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 102,
+    "sha_text": "fa2f3402d670062981d1ea8dcd75ae8dcebd15f5",
+    "commit_date": "2024-04-28T16:33:31Z",
+    "commit_message": "fixes the broken XMLConfigurationTest cases",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 103,
+    "sha_text": "f4944fbf1e0496d07c98904caf702eb209e344ff",
+    "commit_date": "2024-04-28T16:28:38Z",
+    "commit_message": "fixes the broken JSONMLTest cases",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 104,
+    "sha_text": "1881cbe91aa1940d7e63e179dff46c45f908de15",
+    "commit_date": "2024-04-28T16:23:01Z",
+    "commit_message": "fixes the broken CDLTest cases",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 105,
+    "sha_text": "209837357ba4ce12a86f8289d78243114af4263c",
+    "commit_date": "2024-04-28T16:03:24Z",
+    "commit_message": "fixes the broken JSONObjectTest cases",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 106,
+    "sha_text": "d1fd901bdb973b43e1ea2c6f71edaed8a2970c23",
+    "commit_date": "2024-04-28T15:47:40Z",
+    "commit_message": "fixes the JSONObjectNumberTest cases",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 108,
+    "sha_text": "6529a7e536ebe6d539fabc66a22e6654cf0b2d94",
+    "commit_date": "2024-04-28T15:45:23Z",
+    "commit_message": "fixes the broken JSONArrayTest cases",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 107,
+    "sha_text": "4319b7193477bad9d183628748da77c6d28567ce",
+    "commit_date": "2024-04-28T15:37:36Z",
+    "commit_message": "force strict mode to expose failing tests",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 109,
+    "sha_text": "1e3f37be98f3bcb071be900fb0a7292da52fbb37",
+    "commit_date": "2024-04-27T21:37:21Z",
+    "commit_message": "feat(#877): add additional validation, test case",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 110,
+    "sha_text": "7a8c21621cbb142166f8682c2c361705a7e15ce5",
+    "commit_date": "2024-04-27T21:16:38Z",
+    "commit_message": "fix(#877): adaptation for java 6 compatibility",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 111,
+    "sha_text": "9216a193660cc9edd5e0070296d71408ab18349a",
+    "commit_date": "2024-04-27T21:14:35Z",
+    "commit_message": "feat(#877): improved JSONArray and JSONTokener logic",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 112,
+    "sha_text": "b6e347d7f88d9bc30b1d8e55eb9d12ed1a8edca6",
+    "commit_date": "2024-04-26T06:01:21Z",
+    "commit_message": "fixed non-idempotent unit tests",
+    "author_name": "Kaiyao Ke"
+  },
+  {
+    "sha_id": 113,
+    "sha_text": "879579d3bb999cacf0a476f513b95c9aa904b516",
+    "commit_date": "2024-04-23T19:54:20Z",
+    "commit_message": "chore(#887): signature minor edit",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 114,
+    "sha_text": "898dd5a39d83627de2b0108276f546081ee931b9",
+    "commit_date": "2024-04-23T19:52:02Z",
+    "commit_message": "fix(#887): allow null value strict mode",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 115,
+    "sha_text": "ce13ebd5fee07c35b3e32db63e2f3542c84f2b56",
+    "commit_date": "2024-04-23T19:42:11Z",
+    "commit_message": "chore(#887): clean up parsedUnquotedText implementation",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 116,
+    "sha_text": "7cc19483fb8379c70c8ba7e8bb8bae92e6c168aa",
+    "commit_date": "2024-04-23T18:06:27Z",
+    "commit_message": "fix(#887): regression parsing array with non-string and boolean values",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 117,
+    "sha_text": "0bace72cededd24cff06d474b03ab855d3721e5a",
+    "commit_date": "2024-04-21T21:09:05Z",
+    "commit_message": "fix(#887): small typo",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 118,
+    "sha_text": "03def9c7fcf076d3bdac021d932b0497d96fa46f",
+    "commit_date": "2024-04-21T21:05:56Z",
+    "commit_message": "Merge branch 'master' of github.com:stleary/JSON-java into fix/887",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 119,
+    "sha_text": "3dcd5b2fabe34af5b9f669198504c9335483bcb8",
+    "commit_date": "2024-04-21T10:03:15Z",
+    "commit_message": "fix(#887): double array breaking JSONTokener.nextValue",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 120,
+    "sha_text": "ce074e9f9acbcb747a6590aa11adcbbb857b361c",
+    "commit_date": "2024-04-14T22:23:06Z",
+    "commit_message": "fix(#887): corrected small typo",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 121,
+    "sha_text": "fe597d296e31febaa73638de1e38570e966ac749",
+    "commit_date": "2024-04-14T22:11:17Z",
+    "commit_message": "fix(#887): complete strictMode for JSONArray",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 122,
+    "sha_text": "5bd4257c544c467be67ee99dfa707d9358d2152a",
+    "commit_date": "2024-04-12T13:30:41Z",
+    "commit_message": "add javadoc for strictmode",
+    "author_name": "Simulant87"
+  },
+  {
+    "sha_id": 123,
+    "sha_text": "32002758811bd37dcd99785638770ba631269101",
+    "commit_date": "2024-04-07T09:26:28Z",
+    "commit_message": "change(stleary#871-strictMode): cleanup",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 124,
+    "sha_text": "d92d62afc2ee1bbc9b90378275db36309659c576",
+    "commit_date": "2024-03-30T22:03:57Z",
+    "commit_message": " Merge branch 'master' into feat/871-strictMode",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 125,
+    "sha_text": "46534b56ad646f0b36171ee223657317e550ea5a",
+    "commit_date": "2024-03-30T18:44:51Z",
+    "commit_message": "feat(#871-strictMode): removed allowSingleQuotes",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 126,
+    "sha_text": "c0918c2428fd094b3939f27e9d781824e2b5a951",
+    "commit_date": "2024-03-30T11:06:30Z",
+    "commit_message": "feat(#871-strictMode): add allowSingleQuote option, add enhancements …",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 127,
+    "sha_text": "d2cb38dba75c3c83702bb3a4c96cabaa195d8935",
+    "commit_date": "2024-03-30T10:26:44Z",
+    "commit_message": "feat(#871-strictMode): added ORIGINAL implementation to JSONParserCon…",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 128,
+    "sha_text": "4929fc99c1d7d1532aee092868cbb990ffd34b6d",
+    "commit_date": "2024-03-30T10:15:47Z",
+    "commit_message": "test(#871-strictMode): added more test cases, improved existing ones",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 129,
+    "sha_text": "372f5caac4666cea82904cac9ce8fa2591624e1b",
+    "commit_date": "2024-03-30T10:15:10Z",
+    "commit_message": "feat(#871-strictMode): enhanced and simplified strictMode logic",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 130,
+    "sha_text": "0fcf3528485f3ff439f1b5aa8aa90663e37be220",
+    "commit_date": "2024-03-27T19:36:35Z",
+    "commit_message": "Revert \"explain position information numbers in syntax exception\"",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 131,
+    "sha_text": "78cdb3d0d607425cdf9c5d73ecac4d897098ed4c",
+    "commit_date": "2024-03-23T21:07:05Z",
+    "commit_message": "fix wrong comment update",
+    "author_name": "Simulant87"
+  },
+  {
+    "sha_id": 132,
+    "sha_text": "7324cc0b26814534113d51ad5bfcdce5dd11ebe0",
+    "commit_date": "2024-03-23T21:06:20Z",
+    "commit_message": "fix wrong comment update",
+    "author_name": "Simulant87"
+  },
+  {
+    "sha_id": 133,
+    "sha_text": "75a34a246ff77db80c82d487da0e803f0d91ed91",
+    "commit_date": "2024-03-23T21:05:51Z",
+    "commit_message": "fix wrong comment update",
+    "author_name": "Simulant87"
+  },
+  {
+    "sha_id": 134,
+    "sha_text": "78151beea2c03bcf186b65655b3cfd174b0723f3",
+    "commit_date": "2024-03-23T21:05:27Z",
+    "commit_message": "fix wrong comment update",
+    "author_name": "Simulant87"
+  },
+  {
+    "sha_id": 135,
+    "sha_text": "ccb4a9b95f6e38834501b7c313c02839fac6474f",
+    "commit_date": "2024-03-23T21:04:53Z",
+    "commit_message": "fix wrong comment update",
+    "author_name": "Simulant87"
+  },
+  {
+    "sha_id": 136,
+    "sha_text": "4e39d8ccf2a99bc70a0354283e87df821a4050e8",
+    "commit_date": "2024-03-23T21:03:57Z",
+    "commit_message": "fix wrong comment update",
+    "author_name": "Simulant87"
+  },
+  {
+    "sha_id": 137,
+    "sha_text": "d69d5e284b3ee797f3950d80eb9dfc571a944284",
+    "commit_date": "2024-03-23T21:02:54Z",
+    "commit_message": "explain position information numbers in syntax exception",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 138,
+    "sha_text": "f1c9d0787b3aab056574cb1a9f528b6a5b85c67e",
+    "commit_date": "2024-03-23T20:49:58Z",
+    "commit_message": "add test cases for extended syntax error exception messages",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 139,
+    "sha_text": "49de92224d0a463947bd68316cd75c13d02a8ee7",
+    "commit_date": "2024-03-22T18:42:49Z",
+    "commit_message": "chore(#871-strictMode): fix small spacing typo",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 140,
+    "sha_text": "d335447ab4508944ba53a3d48d5f3d4ccd603e64",
+    "commit_date": "2024-03-22T18:28:56Z",
+    "commit_message": "test(#871-strictMode): add two more test which validate error correct…",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 141,
+    "sha_text": "6c160b7d1a12132531a149dd260118f3f993d321",
+    "commit_date": "2024-03-22T11:08:06Z",
+    "commit_message": "leave JSONTokener.toString unchanged",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 142,
+    "sha_text": "30dc22790c4b8bc64e7f336aeb779974cbb9e8a9",
+    "commit_date": "2024-03-22T11:02:09Z",
+    "commit_message": "extend syntax error information",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 143,
+    "sha_text": "8f66865e0addf8c8670404947855eb14ab5bd356",
+    "commit_date": "2024-03-21T08:08:15Z",
+    "commit_message": "Merge branch 'master' into feat/871-strictMode",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 144,
+    "sha_text": "6aed1cfeb6458cc0f533dbda29c44564bb67017b",
+    "commit_date": "2024-03-18T22:07:22Z",
+    "commit_message": "fix typo",
+    "author_name": "Simulant87"
+  },
+  {
+    "sha_id": 145,
+    "sha_text": "3672b5e158dadac7c0e2b5cc78dcbf86283ee7ba",
+    "commit_date": "2024-03-17T15:20:38Z",
+    "commit_message": "chore(#871-strictMode): reverted unrelated changes",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 146,
+    "sha_text": "f3b3491f4d239afda2d0847dee1e8a5b6c7e4d1b",
+    "commit_date": "2024-03-16T01:13:52Z",
+    "commit_message": "chore(#871-strictMode): reverted refactor in JSONTokener",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 147,
+    "sha_text": "e2fe14d9515e65d01f467cc69dae8c449d8281e8",
+    "commit_date": "2024-03-16T00:48:58Z",
+    "commit_message": "fix(#871-strictMode): replaced stream with conventional loop for 1.6 …",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 148,
+    "sha_text": "0ff368ca0792ad175202333e77ca9151ada98f0e",
+    "commit_date": "2024-03-15T23:13:21Z",
+    "commit_message": "chore(#871-strictMode): corrected small syntax typo in unit test",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 149,
+    "sha_text": "c51efe8b0824362a95c8755a8c2d269da8cd0b67",
+    "commit_date": "2024-03-15T22:55:09Z",
+    "commit_message": "docs(#871-strictMode): JSONArray constructor JavaDoc update",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 150,
+    "sha_text": "e67abb3842abdebc17ccd9ac1eb7c7b83daa6106",
+    "commit_date": "2024-03-15T22:28:31Z",
+    "commit_message": "feat(#871-strictMode): improved validation, strict mode for quotes im…",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 151,
+    "sha_text": "c140e91bb8a433d8d15e537d205b5659e2197d1c",
+    "commit_date": "2024-03-15T01:23:20Z",
+    "commit_message": "test(#871-strictMode): strict mode false initial implementation",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 152,
+    "sha_text": "63e8314debb80ab2a887b22523cff081d0a7c7e2",
+    "commit_date": "2024-03-15T00:45:32Z",
+    "commit_message": "feat(#871-strictMode): strictMode JSONArray initial implementation",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 153,
+    "sha_text": "dcbbccc76cd2a822ac0069f4f65b18accd8a9306",
+    "commit_date": "2024-03-15T00:19:25Z",
+    "commit_message": "feat(#871-strictMode): strictMode configuration add to JSONParserConf…",
+    "author_name": "rikkarth"
+  },
+  {
+    "sha_id": 154,
+    "sha_text": "b75da0754519194e20e84712eab24c71ac524d3d",
+    "commit_date": "2024-03-10T22:21:47Z",
+    "commit_message": "#863 move instanceof Enum check back to original position",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 155,
+    "sha_text": "6c35b08ad64b65256b0ab2a9f932a84224bb10c9",
+    "commit_date": "2024-03-10T22:20:09Z",
+    "commit_message": "#863 make StringBuilderWriter public and move test",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 156,
+    "sha_text": "60090a7167bf86f3cd9af10863b42c18e7ee754d",
+    "commit_date": "2024-03-10T20:13:54Z",
+    "commit_message": "add a test case for an enum implementing JSONString",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 157,
+    "sha_text": "0c5cf182552f0c2564c0d0d0b253829988d8a1e1",
+    "commit_date": "2024-03-10T20:12:28Z",
+    "commit_message": "Revert \"#863 improve performance of JSONTokener#nextString\"",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 158,
+    "sha_text": "5974fc1a384626dd7ea9bf139765fdfd0446b169",
+    "commit_date": "2024-03-10T20:10:21Z",
+    "commit_message": "Merge branch 'master' into 863-improve-toString-performance-StringBui…",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 159,
+    "sha_text": "a3f15e588301c6d7b12352117e6d4dcb1fd17ebe",
+    "commit_date": "2024-03-10T20:08:31Z",
+    "commit_message": "Revert \"#863 replace usage of back() method in JSONObject parsing\"",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 160,
+    "sha_text": "045324ab42a0415f8cd65bc0a11dcbbc8626ba91",
+    "commit_date": "2024-03-10T20:08:10Z",
+    "commit_message": "Revert \"#863 replace short switch statements with if-else\"",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 161,
+    "sha_text": "dab29ec1d537c3f2f124fe1505f56b9756b45b33",
+    "commit_date": "2024-03-09T15:15:53Z",
+    "commit_message": "remove-jsonparserconfig-ctor - just use the withOverwriteDuplicateKey…",
+    "author_name": "Sean Leary"
+  },
+  {
+    "sha_id": 162,
+    "sha_text": "05b0897f418b8ad000fc52842ef021a6facac21b",
+    "commit_date": "2024-03-09T14:19:30Z",
+    "commit_message": "Merge branch 'stleary:master' into master",
+    "author_name": "XIAYM"
+  },
+  {
+    "sha_id": 163,
+    "sha_text": "c010033591c192a0821bdd8fe23bc61cdc6fe738",
+    "commit_date": "2024-03-05T21:12:57Z",
+    "commit_message": "#863 replace short switch statements with if-else",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 164,
+    "sha_text": "5407423e439dfb4095e371666a65cf4f6603606d",
+    "commit_date": "2024-03-05T21:11:24Z",
+    "commit_message": "#863 replace usage of back() method in JSONObject parsing",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 165,
+    "sha_text": "63625b3c622407273d2654660be7659ac5d74db7",
+    "commit_date": "2024-03-05T08:43:54Z",
+    "commit_message": "#863 improve performance of JSONTokener#nextString",
+    "author_name": "Simulant"
+  },
+  {
+    "sha_id": 166,
+    "sha_text": "d520210ea26883965506d04153557e101903754a",
+    "commit_date": "2024-02-25T16:45:34Z",
+    "commit_message": "Added one more example to XMLTest clarifyCurrentBehavior()",
+    "author_name": "Sean Leary"
+  }
+]
